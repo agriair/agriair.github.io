@@ -1,0 +1,168 @@
+#page-wrap {
+     max-width: 1100px;
+     margin: 0 auto;
+     padding: 20px 20px 0;
+     border-style: ridge;
+     border-width: 2px;
+}
+
+body{
+  text-align: center;
+}
+
+#header {
+  position: relative;
+}
+
+#logo-container {
+  /*border: solid;*/
+  height: 171px;
+  text-align: center;
+}
+
+.logo {
+  line-height: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 171px;
+  max-width: 100%;
+
+}
+
+.site-info {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.site-info a {
+  text-decoration: none;
+}
+
+span.gmap-hover {
+  background: #ffeedd;
+}
+
+span.gmap-hover:hover {
+  text-decoration: none; 
+  background: #ffffff; 
+  z-index: 6; 
+}
+
+span.gmap-hover span {
+  position: absolute;
+  left: -9999px;
+  margin: 20px 0 0 0px;
+  padding: 3px 3px 3px 3px;
+  border-style:solid;
+  border-color:black;
+  border-width:1px;
+  z-index: 6;
+}
+
+span.gmap-hover:hover span {
+  left: 2%;
+  background: #ffffff;
+}
+
+span.gmap-hover span {
+  position: absolute;
+  left: -9999px;
+  margin: 4px 0 0 0px;
+  padding: 3px 3px 3px 3px;
+  border-style:solid;
+  border-color:black;
+  border-width:1px;
+}
+
+span.gmap-hover:hover span {
+  margin: 20px 0 0 170px;
+  background: #ffffff;
+  z-index:6;
+}
+
+@media screen and (max-width: 570px) {
+    span.gmap-hover:hover span {
+      margin: 20px 0 0 -10px;
+      background: #ffffff;
+      z-index:6;
+}
+}
+
+.site-address, .site-town, .site-phone {
+  display: inline-block;
+}
+
+.site-address {
+  text-align: left;
+}
+
+@media screen and (max-width: 570px) {
+  .site-address, .site-town, .site-phone {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+
+.site-town {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.site-phone {
+  text-align: right;
+}
+
+@media screen and (max-width: 570px) {
+  .site-phone {
+    text-align: center;
+}
+}
+
+/*Main Content under the header*/
+
+.thrush-image {
+  display: block;
+  width: 100%;
+}
+
+#message-container {
+  text-align: center;
+}
+
+.message {
+  display: block;
+  padding-top: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.site-description {
+  font-size: 25px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+    background-color: blue;
+    font-weight: bold
+}
