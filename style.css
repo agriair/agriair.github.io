@@ -1,13 +1,21 @@
-#page-wrap {
-     max-width: 1100px;
-     margin: 0 auto;
-     padding: 20px 20px 0;
-     border-style: ridge;
-     border-width: 2px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body{
   text-align: center;
+  background-image: url("images/clouds.jpg");
+  background-repeat: repeat;
+}
+
+#page-wrap {
+     max-width: 1100px;
+     margin: 10px auto;
+     padding: 20px 20px 0;
+     border-style: ridge;
+     border-width: 2px;
+     background-color: white;
 }
 
 #header {
@@ -15,7 +23,6 @@ body{
 }
 
 #logo-container {
-  /*border: solid;*/
   height: 171px;
   text-align: center;
 }
@@ -30,7 +37,9 @@ body{
 }
 
 .site-info {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   font-family: 'Orbitron', sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -47,9 +56,9 @@ span.gmap-hover {
 }
 
 span.gmap-hover:hover {
-  text-decoration: none; 
-  background: #ffffff; 
-  z-index: 6; 
+  text-decoration: none;
+  background: #ffffff;
+  z-index: 6;
 }
 
 span.gmap-hover span {
@@ -79,7 +88,7 @@ span.gmap-hover span {
 }
 
 span.gmap-hover:hover span {
-  margin: 20px 0 0 170px;
+  margin: 0px 0 0 170px;
   background: #ffffff;
   z-index:6;
 }
@@ -92,42 +101,8 @@ span.gmap-hover:hover span {
 }
 }
 
-.site-address, .site-town, .site-phone {
-  display: inline-block;
-}
-
-.site-address {
-  text-align: left;
-}
-
-@media screen and (max-width: 570px) {
-  .site-address, .site-town, .site-phone {
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-}
-}
-
-.site-town {
-  text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.site-phone {
-  text-align: right;
-}
-
-@media screen and (max-width: 570px) {
-  .site-phone {
-    text-align: center;
-}
-}
-
 /*Main Content under the header*/
-
 .thrush-image {
-  display: block;
   width: 100%;
 }
 
