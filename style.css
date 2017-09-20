@@ -121,6 +121,79 @@ span.gmap-hover:hover span {
   font-size: 25px;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  
+  display: inline;
+}
+
+nav a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.service-pic {
+  margin: 15px 0;
+  height: 380px;
+  width: 475px;
+  background-color: rgba(255, 1, 1, 0.9);
+  border-radius: 25px;
+}
+
+.service-descript {
+  height: 350px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.72);
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .services-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+  .service-pic {
+    width: 85%;
+  }
+
+  .service-descript {
+    margin: 15px 0;
+    width: 45% ;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+  .service-pic {
+    width: 100%;
+  }
+
+  .service-descript {
+    margin: 15px 0;
+    width: 100% ;
+  }
+}
+
 hr {
   margin-top: 20px;
 }
