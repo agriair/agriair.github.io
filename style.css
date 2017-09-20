@@ -49,6 +49,16 @@ body{
 
 .site-info a {
   text-decoration: none;
+  color: #1E0AFF;
+}
+
+.site-phone a {
+  background: #FFFB23;
+}
+
+.site-phone a:hover {
+  background-color: white;
+  
 }
 
 span.gmap-hover {
@@ -123,17 +133,45 @@ span.gmap-hover:hover span {
 
 nav {
   display: flex;
+  margin: 25px 0;
+  padding-bottom: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  
-  display: inline;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: solid;
 }
 
 nav a {
   font-size: 30px;
   text-decoration: none;
+  color: #1E0AFF;
 }
+
+nav a:link {
+  background: #FFFB23;
+}
+
+nav a:hover {
+  background: white;
+}
+
+/* JQUERY SCROLL */
+.navbar-fixed {
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.push-down {
+  margin-top: 115px;
+}
+
+/* END JQUERY SCROLL */
 
 .services-container {
   display: flex;
