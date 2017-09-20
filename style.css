@@ -52,7 +52,7 @@ body{
 }
 
 span.gmap-hover {
-  background: #ffeedd;
+  background: #FFFB23;
 }
 
 span.gmap-hover:hover {
@@ -155,8 +155,14 @@ nav a {
 .service-descript {
   height: 350px;
   width: 300px;
-  background-color: rgba(0, 0, 0, 0.72);
+  background-color: #3523FF;
   border-radius: 25px;
+}
+
+.service-descript li {
+  text-align: left;
+  font-size: 30px;
+  color: #FFFB23;
 }
 
 @media screen and (max-width: 1200px) {
