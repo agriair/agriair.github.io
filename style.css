@@ -172,6 +172,27 @@ nav a:hover {
 }
 
 /* END JQUERY SCROLL */
+.services-banner {
+  width: 475px;
+  height: 100px;
+  border: solid 2px;
+  border-style: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+  background-image: -webkit-linear-gradient(top, start-color, end-color);
+  background-image: -moz-linear-gradient(top, start-color, end-color);
+  background-image: linear-gradient(to bottom, start-color, end-color);
+  border-radius: 25px;
+  background-color: #FFFB23;
+}
+
+h1 {
+  margin: 20px 0 20px 40px;
+  text-align: left;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 50px;
+  color: #1E0AFF;
+}
 
 .services-container {
   display: flex;
