@@ -7,6 +7,7 @@ body{
   text-align: center;
   background-image: url("images/clouds.jpg");
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 #page-wrap {
@@ -104,7 +105,7 @@ span.gmap-hover:hover span {
 /*Main Content under the header*/
 .thrush-image {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 #message-container {
@@ -119,18 +120,27 @@ span.gmap-hover:hover span {
 }
 
 .site-description {
+  margin: 0 auto;
+  width: 95%;
   font-family: 'Just Another Hand', cursive;
   font-size: 35px;
   letter-spacing: 3px;
   line-height: 50px;
   padding: 45px 0 20px 0;
-  color: yellow;
+  color: white;
 }
 
 .site-description div {
   padding:15px 0 15px 0;
-  background: rgba(0, 0, 255, 0.89);
-  border-radius: 30px;
+  background: rgba(0, 0, 255, 0.87);
+  border-style: ridge;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.site-description strong {
+  color: yellow;
 }
 
 hr {
